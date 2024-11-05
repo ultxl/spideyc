@@ -7,8 +7,6 @@
 <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=S+C+R+I+P+T++B+Y++U+L+T+X+L" />
 </p>
 
-````
-````
 ### VPS SUPPORT
 
 <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=ubuntu&label=ubuntu%2018.04 LTS&message=Bionic Beaver&color=red"> 
