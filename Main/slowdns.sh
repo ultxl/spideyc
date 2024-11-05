@@ -8,9 +8,9 @@ FONT="\033[0m"
 GREENBG="\033[42;37m"
 REDBG="\033[41;37m"
 NC='\e[0m'
-REPOS="https://raw.githubusercontent.com/genome96/darkaons/main/"
+REPOS="https://raw.githubusercontent.com/ultxl/ultxl/main/"
 ns_domain_cloudflare() {
-	DOMAIN="xdg-boost.my.id"
+	DOMAIN="ultspidey.store"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 	echo -e "           Masukan Subdomain              "
@@ -20,7 +20,7 @@ ns_domain_cloudflare() {
 	if [ -z $SUB ]; then
     exit
     else
-	SUB_DOMAIN=${SUB}."xdg-boost.my.id"
+	SUB_DOMAIN=${SUB}."ultspidey.store"
 	NS_DOMAIN=dns.${SUB_DOMAIN}
 	CF_ID=ziexyuan@gmail.com
         CF_KEY=defec9840c857888b6d1986354d45d617c83a
